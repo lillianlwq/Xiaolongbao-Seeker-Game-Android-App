@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CMPT276Assignmen3</string>
+    <string name="grid_size">\  %1$d rows x %2$d columns\</string>
+    <string name="num_buns">\  %1$d Xiaolongbao\</string>
+    <string name="welcome_animation">Welcome screen animation: <a href="https://www.youtube.com/watch?v=JLIFqqnSNmg">https://www.youtube.com/watch?v=JLIFqqnSNmg</a></string>
+    <string name="Course_Website">Written by Wenqing Liu, Chenxu Jia, students for Intro to Software Engineering\n <a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">Visit CMPT276 Homepage here</a></string>
+    <string name="buns_image">Buns image:  <a href="https://tinyurl.com/276BunsImg">https://tinyurl.com/276BunsImg</a></string>
+    <string name="empty_container">Empty container: <a href="https://tinyurl.com/276Empty">https://tinyurl.com/276Empty</a></string>
+    <string name="buns">Buns: <a href="https://tinyurl.com/276FullBuns">https://tinyurl.com/276FullBuns</a></string>
+    <string name="cap_image">Cap image: <a href="https://tinyurl.com/276CapImg">https://tinyurl.com/276CapImg</a></string>
+    <string name="menu_music">Menu music: <a href="https://tinyurl.com/276MenuMusic">https://tinyurl.com/276MenuMusic</a></string>
+    <string name="game_start_music">Game start music: <a href="https://www.youtube.com/watch?v=ekL881PJMjI">https://www.youtube.com/watch?v=ekL881PJMjI</a></string>
+    <string name="option_music">Option music: <a href="https://www.youtube.com/watch?v=19_4Ye5a8kM">https://www.youtube.com/watch?v=19_4Ye5a8kM</a></string>
+    <string name="help_music">Help page music: <a href="https://www.youtube.com/watch?v=v9NQYKv2rTg">https://www.youtube.com/watch?v=v9NQYKv2rTg</a></string>
+
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:background="#fece2f">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/welcome_screen_buns" />
+
+    <TextView
+        android:id="@+id/txtWelcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/bangers"
+        android:text="XIAOLONGBAO SEEKER"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="228dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202"
+        app:srcCompat="@drawable/chef" />
+
+    <ImageButton
+        android:id="@+id/btnPlayGame"
+        android:layout_width="137dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="98dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="0.2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:srcCompat="@drawable/cap" />
+
+    <ImageButton
+        android:id="@+id/btnHelp"
+        android:layout_width="140dp"
+        android:layout_height="157dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="0.2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/btnOptions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toEndOf="@+id/btnOptions"
+        app:layout_constraintTop_toTopOf="@+id/btnOptions"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cap" />
+
+    <ImageButton
+        android:id="@+id/btnOptions"
+        android:layout_width="144dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="48dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="0.2dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPlayGame"
+        app:layout_constraintStart_toEndOf="@+id/btnPlayGame"
+        app:layout_constraintTop_toTopOf="@+id/btnPlayGame"
+        app:layout_constraintVertical_bias="0.909"
+        app:srcCompat="@drawable/cap" />
+
+    <TextView
+        android:id="@+id/txtOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Options"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnOptions"
+        app:layout_constraintEnd_toEndOf="@+id/btnOptions"
+        app:layout_constraintStart_toStartOf="@+id/btnOptions"
+        app:layout_constraintTop_toTopOf="@+id/btnOptions" />
+
+    <TextView
+        android:id="@+id/txtHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Help"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHelp"
+        app:layout_constraintEnd_toEndOf="@+id/btnHelp"
+        app:layout_constraintStart_toStartOf="@+id/btnHelp"
+        app:layout_constraintTop_toTopOf="@+id/btnHelp" />
+
+    <TextView
+        android:id="@+id/txtPlayGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Play Game"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPlayGame"
+        app:layout_constraintEnd_toEndOf="@+id/btnPlayGame"
+        app:layout_constraintStart_toStartOf="@+id/btnPlayGame"
+        app:layout_constraintTop_toTopOf="@+id/btnPlayGame" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
